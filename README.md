@@ -37,6 +37,8 @@ A software cell is a compact team of agents that can **build, run, inspect, and 
 - `docs/VALIDATION.md` — runtime validation, QA, and acceptance criteria
 - `docs/RUNTIME-SURFACES.md` — how to make products observable
 - `docs/MODEL-ROUTING.md` — how to split roles across stronger/weaker models
+- `docs/OPENCLAW-USAGE.md` — how to run the pattern natively inside OpenClaw
+- `docs/STARTER-KIT.md` — how to bootstrap a new project quickly
 
 ### Templates
 
@@ -159,3 +161,8 @@ Slow systems often outperform frantic ones because they:
 
 The goal is not constant motion.
 The goal is reliable iteration.
+
+
+## OpenClaw skill
+
+This repo now also ships a workspace skill scaffold at `skills/software-cell/` so the pattern can be used as a first-class reusable skill inside OpenClaw.
